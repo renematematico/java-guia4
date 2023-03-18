@@ -28,8 +28,12 @@ public class TeoriaEjercicio11 {
         longitud=frase.length();
         } while (!frase.substring(longitud-1,longitud).equals("."));
         
+        //Comprueba el último caracter de la frase.
+        //while(!frase.endsWith("."));
+        
+        
         //Mostramos el último caracter de la frase para corroborar que sea punto
-        System.out.println(frase.substring(longitud-1,longitud));
+        //System.out.println(frase.substring(longitud-1,longitud));
         
         //23-02-07 - CLASE 15-16\EJERCICIOS4
         codificar (frase,longitud);

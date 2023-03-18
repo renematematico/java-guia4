@@ -31,15 +31,15 @@ public class TeoriaEjercicio12 {
         numA=leer.nextInt();
         numB=leer.nextInt();
         
-        verificarMultiplo(numA,numB);
+        esMultiplo(numA,numB);
     }
     
-    public static void verificarMultiplo(int A, int B){
+    public static void esMultiplo(int A, int B){
     
-    if (B%A==0){
-        System.out.println(B+" ES múltiplo de "+A);
+    if (A%B==0){
+        System.out.println(A+" ES múltiplo de "+B);
     }else{
-        System.out.println(B+" NO ES MULTIPLO DE "+A);
+        System.out.println(A+" NO ES MULTIPLO DE "+B);
     }
     
     }
